@@ -1,0 +1,264 @@
+basePath: /api/v1
+definitions:
+  entity.SongUpdate:
+    properties:
+      groupID:
+        type: string
+      groupName:
+        type: string
+      id:
+        type: string
+      link:
+        type: string
+      lyrics:
+        type: string
+      releaseDate:
+        type: string
+      title:
+        type: string
+    type: object
+  v1.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  v1.SuccessResponse:
+    properties:
+      content: {}
+      message:
+        type: string
+    type: object
+  v1.songCreateInput:
+    properties:
+      group:
+        type: string
+      title:
+        type: string
+    required:
+    - group
+    - title
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a service for managing songs in the library.
+  title: Song Library Service
+  version: "1.0"
+paths:
+  /songs:
+    get:
+      consumes:
+      - application/json
+      description: This endpoint retrieves songs from the library based on various
+        filter criteria such as title, group, link, text, release date range, and
+        pagination.
+      parameters:
+      - description: Filter by title
+        in: query
+        name: title
+        type: string
+      - description: Filter by group name
+        in: query
+        name: group
+        type: string
+      - description: Filter by link
+        in: query
+        name: link
+        type: string
+      - description: Filter by text (contains)
+        in: query
+        name: text
+        type: string
+      - description: Filter by start date (YYYY-MM-DD)
+        in: query
+        name: startDate
+        type: string
+      - description: Filter by end date (YYYY-MM-DD)
+        in: query
+        name: endDate
+        type: string
+      - description: Page number for pagination (must be provided with limit)
+        in: query
+        name: page
+        type: integer
+      - description: Limit of items per page (must be provided with page)
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: List of songs retrieved successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request - invalid filter parameters
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Get songs by filter
+      tags:
+      - songs
+    post:
+      consumes:
+      - application/json
+      description: This endpoint creates a new song by specifying the group and title.
+      parameters:
+      - description: Song creation input
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/v1.songCreateInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Song created successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Creates a new song
+      tags:
+      - songs
+    put:
+      consumes:
+      - application/json
+      description: This endpoint updates a song's details. The song ID must be provided
+        in the request body.
+      parameters:
+      - description: Song update input
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/entity.SongUpdate'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Song updated successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request - invalid input or song not found
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Update a song
+      tags:
+      - songs
+  /songs/{song_id}:
+    delete:
+      consumes:
+      - application/json
+      description: This endpoint deletes a song by its ID.
+      parameters:
+      - description: Song ID to delete
+        in: path
+        name: song_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Song deleted successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request - song not found
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Delete a song
+      tags:
+      - songs
+    get:
+      consumes:
+      - application/json
+      description: This endpoint retrieves a song's details by its ID.
+      parameters:
+      - description: Song ID to retrieve
+        in: path
+        name: song_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Song retrieved successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request - song not found
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Get a song by ID
+      tags:
+      - songs
+  /songs/lyrics/{song_id}:
+    get:
+      consumes:
+      - application/json
+      description: This endpoint retrieves paginated lyrics for a specific song by
+        its ID.
+      parameters:
+      - description: Song ID
+        in: path
+        name: song_id
+        required: true
+        type: string
+      - description: Page number (must be provided with limit)
+        in: query
+        name: page
+        required: true
+        type: integer
+      - description: Limit of items per page (must be provided with page)
+        in: query
+        name: limit
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Lyrics retrieved successfully
+          schema:
+            $ref: '#/definitions/v1.SuccessResponse'
+        "400":
+          description: Bad request - invalid input parameters
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/v1.ErrorResponse'
+      summary: Get paginated lyrics
+      tags:
+      - lyrics
+schemes:
+- http
+swagger: "2.0"

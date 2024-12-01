@@ -1,0 +1,9 @@
+http:
+  port: :8080
+  shutdownTimeout: 5s
+
+log:
+  level: 'debug'
+
+externalAPI:
+  URL: http://localhost:8081

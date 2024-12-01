@@ -1,0 +1,226 @@
+{"time":"2024-11-28T19:53:11.7352807+02:00", "method":"POST","uri":"/songs", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-11-28T19:57:29.6602313+02:00", "method":"POST","uri":"/songs", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-11-28T19:58:29.9553624+02:00", "method":"POST","uri":"/api/v1/songs/", "status":400,"error":""}
+{"time":"2024-11-28T20:05:09.2780705+02:00", "method":"POST","uri":"/api/v1/songs/", "status":400,"error":""}
+{"time":"2024-11-28T20:05:43.0373287+02:00", "method":"POST","uri":"/api/v1/songs/", "status":400,"error":""}
+{"time":"2024-11-28T20:06:06.6786614+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":""}
+{"time":"2024-11-28T20:09:56.6489961+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":""}
+{"time":"2024-11-28T20:13:55.7821657+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":""}
+{"time":"2024-11-28T20:18:02.9825929+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"no rows in result set"}
+{"time":"2024-11-28T20:25:41.3363891+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"no rows in result set"}
+{"time":"2024-11-28T20:28:06.9924916+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to get group: no rows in result set"}
+{"time":"2024-11-28T20:30:08.4818793+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to create group: ERROR: null value in column \"id\" of relation \"groups\" violates not-null constraint (SQLSTATE 23502)"}
+{"time":"2024-11-28T20:32:49.6435332+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: failed to fetch song details: Get \"/info?group=Muse\u0026song=Supermassive Black Hole\": unsupported protocol scheme \"\""}
+{"time":"2024-11-28T20:41:05.7325232+02:00", "method":"GET","uri":"/api/v1/songs/", "status":405,"error":"code=405, message=Method Not Allowed"}
+{"time":"2024-11-28T20:41:05.9108734+02:00", "method":"GET","uri":"/favicon.ico", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-11-28T20:41:13.4174852+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: failed to fetch song details: Get \"/info?group=Muse\u0026song=Supermassive Black Hole\": unsupported protocol scheme \"\""}
+{"time":"2024-11-28T20:48:43.9271245+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: failed to fetch song details: Get \"/info?group=Muse\u0026song=Supermassive Black Hole\": unsupported protocol scheme \"\""}
+{"time":"2024-11-28T20:50:14.9542496+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T20:51:28.5210376+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T20:54:29.2522375+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T20:58:20.280642+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T21:00:36.4298023+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T21:02:17.1307921+02:00", "method":"POST","uri":"/api/v1/songs/", "status":500,"error":"failed to access to external api: unexpected status code: 400"}
+{"time":"2024-11-28T21:05:09.9426074+02:00", "method":"POST","uri":"/api/v1/songs/", "status":200,"error":""}
+{"time":"2024-11-28T21:08:15.7264075+02:00", "method":"POST","uri":"/api/v1/songs/", "status":400,"error":"song already exists"}
+{"time":"2024-11-28T21:08:32.8485971+02:00", "method":"POST","uri":"/api/v1/songs/", "status":200,"error":""}
+{"time":"2024-11-30T20:49:42.053949+02:00", "method":"POST","uri":"/api/v1/songs/", "status":400,"error":"song already exists"}
+{"time":"2024-11-30T20:49:46.2701992+02:00", "method":"POST","uri":"/api/v1/songs/", "status":200,"error":""}
+{"time":"2024-11-30T21:20:01.1142979+02:00", "method":"POST","uri":"/api/v1/songs/", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-11-30T21:20:06.5940748+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-11-30T21:28:56.5818468+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T01:39:15.028747+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T01:40:19.7996552+02:00", "method":"POST","uri":"/api/v1/songs", "status":500,"error":"new error"}
+{"time":"2024-12-01T01:41:28.2190426+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T01:43:08.2637945+02:00", "method":"POST","uri":"/api/v1/songs", "status":500,"error":"hello"}
+{"time":"2024-12-01T01:44:14.3684117+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T02:11:12.8516754+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:11:52.9578976+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:13:15.7541931+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:13:36.8781141+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:16:13.0105863+02:00", "method":"POST","uri":"/api/v1/songs", "status":400,"error":"song already exists"}
+{"time":"2024-12-01T02:16:26.8777431+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:16:41.6858202+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:16:47.2272509+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:16:48.1791826+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:17:01.3000769+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:19:36.2600725+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:20:12.891425+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T02:20:30.6059366+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":200,"error":""}
+{"time":"2024-12-01T02:25:44.2354244+02:00", "method":"GET","uri":"/api/v1/songs/lyrics/9f047215-30c9-4b71-9764-94def149ecaf?page=1&limit=5", "status":200,"error":""}
+{"time":"2024-12-01T03:56:53.8183556+02:00", "method":"GET","uri":"/api/v1/songs?startDate=32&endDate", "status":400,"error":"strconv.Atoi: parsing \"\": invalid syntax"}
+{"time":"2024-12-01T04:13:42.1836237+02:00", "method":"GET","uri":"/api/v1/songs?startDate=32&endDate", "status":400,"error":"either both startDateStr and endDateStr should be provided, or neither of them"}
+{"time":"2024-12-01T04:13:46.1253116+02:00", "method":"GET","uri":"/api/v1/songs?startDate=32&endDate=12", "status":400,"error":"parsing time \"32\" as \"2006-01-02\": cannot parse \"32\" as \"2006\""}
+{"time":"2024-12-01T04:14:12.5567689+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2004-12-01&endDate=2004-12-10", "status":500,"error":"failed to retrieve songs: failed to query song: ERROR: missing FROM-clause entry for table \"s\" (SQLSTATE 42P01)"}
+{"time":"2024-12-01T04:15:43.6365087+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2004-12-01&endDate=2004-12-10", "status":500,"error":"failed to retrieve songs: failed to query song: ERROR: column reference \"id\" is ambiguous (SQLSTATE 42702)"}
+{"time":"2024-12-01T04:16:07.2657465+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2004-12-01&endDate=2004-12-10", "status":500,"error":"failed to retrieve songs: failed to query song: expected 2 arguments, got 4"}
+{"time":"2024-12-01T04:19:47.8733987+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2004-12-01&endDate=2004-12-10", "status":200,"error":""}
+{"time":"2024-12-01T04:20:12.1288171+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2005-07-16", "status":400,"error":""}
+{"time":"2024-12-01T04:20:18.7898945+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16", "status":200,"error":""}
+{"time":"2024-12-01T04:20:51.1513463+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16&title=super", "status":200,"error":""}
+{"time":"2024-12-01T04:20:56.1861374+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16&title=Super", "status":200,"error":""}
+{"time":"2024-12-01T04:22:04.270749+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16&title=Supermassive%20Black%20Hole", "status":200,"error":""}
+{"time":"2024-12-01T04:22:21.7791568+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16&title=Supermassive%20Black%20Hole&text=baby", "status":500,"error":"failed to retrieve songs: failed to query song: ERROR: column \"text\" does not exist (SQLSTATE 42703)"}
+{"time":"2024-12-01T04:30:17.6296359+02:00", "method":"GET","uri":"/api/v1/songs?startDate=2006-07-16&endDate=2006-07-16&title=Supermassive%20Black%20Hole&text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:30:23.4479286+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:30:37.2444848+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole", "status":200,"error":""}
+{"time":"2024-12-01T04:31:34.4820586+02:00", "method":"GET","uri":"/api/v1/songs?link=http", "status":200,"error":""}
+{"time":"2024-12-01T04:32:57.5996333+02:00", "method":"GET","uri":"/api/v1/songs?link=http", "status":200,"error":""}
+{"time":"2024-12-01T04:32:59.0848725+02:00", "method":"GET","uri":"/api/v1/songs?link=http", "status":200,"error":""}
+{"time":"2024-12-01T04:33:25.1238826+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole", "status":200,"error":""}
+{"time":"2024-12-01T04:33:29.657425+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:33:36.7076085+02:00", "method":"POST","uri":"/api/v1/songs", "status":500,"error":"failed to access to external api: failed to make request: Get \"http://localhost:8081/info?group=Muse\u0026song=Supermassive+Black+Hole\": dial tcp [::1]:8081: connectex: No connection could be made because the target machine actively refused it."}
+{"time":"2024-12-01T04:34:18.3238949+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:34:23.4981011+02:00", "method":"GET","uri":"/api/v1/songs?link=http", "status":200,"error":""}
+{"time":"2024-12-01T04:34:29.4660591+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:34:33.1490241+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole", "status":200,"error":""}
+{"time":"2024-12-01T04:35:06.3407855+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:36:59.7217574+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:38:54.8108446+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":500,"error":"failed to retrieve songs: failed to query song: ERROR: SELECT DISTINCT ON expressions must match initial ORDER BY expressions (SQLSTATE 42P10)"}
+{"time":"2024-12-01T04:40:00.7477958+02:00", "method":"GET","uri":"/api/v1/songs?text=baby", "status":200,"error":""}
+{"time":"2024-12-01T04:40:06.5566727+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole", "status":200,"error":""}
+{"time":"2024-12-01T04:41:07.9724104+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole&group", "status":200,"error":""}
+{"time":"2024-12-01T04:41:12.1883903+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole&group=M", "status":500,"error":"failed to retrieve songs: failed to query song: ERROR: column \"group_name\" does not exist (SQLSTATE 42703)"}
+{"time":"2024-12-01T04:42:05.8666417+02:00", "method":"GET","uri":"/api/v1/songs?title=Hole&group=M", "status":200,"error":""}
+{"time":"2024-12-01T04:42:14.9472633+02:00", "method":"GET","uri":"/api/v1/songs?group=mus", "status":200,"error":""}
+{"time":"2024-12-01T04:42:21.1043831+02:00", "method":"GET","uri":"/api/v1/songs?group=se", "status":200,"error":""}
+{"time":"2024-12-01T04:42:24.9454608+02:00", "method":"GET","uri":"/api/v1/songs?group=su", "status":200,"error":""}
+{"time":"2024-12-01T04:47:39.4415808+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:48:10.3310907+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:49:44.7891084+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:50:21.1973067+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:51:44.4154726+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T04:55:35.0829513+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T05:18:38.0084445+02:00", "method":"DELETE","uri":"/api/v1/songs/f5fbe9c2-6e76-4737-9961-9e390e04bbb1", "status":200,"error":""}
+{"time":"2024-12-01T05:22:25.4160039+02:00", "method":"DELETE","uri":"/api/v1/songs/f5fbe9c2-6e76-4737-9961-9e390e04bbb1", "status":200,"error":""}
+{"time":"2024-12-01T05:22:28.812319+02:00", "method":"DELETE","uri":"/api/v1/songs/f5fbe9c2-6e76-4737-9961-9e390e04bbb1", "status":400,"error":"song not found"}
+{"time":"2024-12-01T05:22:45.4412471+02:00", "method":"DELETE","uri":"/api/v1/songs/15195bd7-e4b8-4d7f-b0bf-ff2d9b528b4d", "status":200,"error":""}
+{"time":"2024-12-01T05:22:52.7464028+02:00", "method":"DELETE","uri":"/api/v1/songs/cceacf7c-f757-4b5f-8b4f-c2cb4a7b283f", "status":200,"error":""}
+{"time":"2024-12-01T05:23:00.1391045+02:00", "method":"DELETE","uri":"/api/v1/songs/c2ced3de-7dac-409c-858e-1b93c63b3dc3", "status":200,"error":""}
+{"time":"2024-12-01T05:23:14.0046343+02:00", "method":"DELETE","uri":"/api/v1/songs/fb1dbc9c-bc69-446d-a7d5-9766699039fe", "status":200,"error":""}
+{"time":"2024-12-01T05:23:21.9059681+02:00", "method":"DELETE","uri":"/api/v1/songs/827fcf9e-9404-46a5-b399-59a7b9608da7", "status":200,"error":""}
+{"time":"2024-12-01T05:32:04.9601631+02:00", "method":"GET","uri":"/api/v1/songs/ca018988-64ca-4f9a-ae79-1f95ecec1359", "status":405,"error":"code=405, message=Method Not Allowed"}
+{"time":"2024-12-01T05:32:13.9862307+02:00", "method":"GET","uri":"/api/v1/songs/ca018988-64ca-4f9a-ae79-1f95ecec1359", "status":405,"error":"code=405, message=Method Not Allowed"}
+{"time":"2024-12-01T05:33:08.959635+02:00", "method":"GET","uri":"/api/v1/songs/ca018988-64ca-4f9a-ae79-1f95ecec1359", "status":200,"error":""}
+{"time":"2024-12-01T05:35:20.7586042+02:00", "method":"GET","uri":"/api/v1/songs/ca018988-64ca-4f9a-ae79-1f95ecec1359", "status":200,"error":""}
+{"time":"2024-12-01T06:12:34.984531+02:00", "method":"PUT","uri":"/api/v1/songs", "status":500,"error":"failed to update the song: no fields to update"}
+{"time":"2024-12-01T06:13:00.254264+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:23:01.6908512+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:23:04.5748393+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:23:07.4885861+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:23:58.8761415+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:24:18.7523541+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T06:24:51.6152701+02:00", "method":"PUT","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T16:51:11.9132652+02:00", "method":"GET","uri":"/api/v1/swagger/*", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T16:51:23.2570539+02:00", "method":"GET","uri":"/api/v1/swagger/", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T16:51:25.8118861+02:00", "method":"GET","uri":"/api/v1/swagger", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T16:51:27.4577261+02:00", "method":"GET","uri":"/api/v1/swagger", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T16:52:17.347777+02:00", "method":"GET","uri":"/api/v1/swagger/index.html", "status":404,"error":"code=404, message=Not Found"}
+{"time":"2024-12-01T16:52:26.4408722+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T16:52:26.485594+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T16:52:26.5056032+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T16:52:26.507615+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T16:52:26.7308652+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:52:26.753757+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.1228873+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.1560333+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.1618437+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.1618437+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.4339887+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T16:55:16.4339887+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:55:21.7608547+02:00", "method":"GET","uri":"/swagger/doc.yaml", "status":500,"error":""}
+{"time":"2024-12-01T16:55:23.2348519+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:55:32.4647533+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T16:55:32.5147982+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T16:55:32.5173475+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T16:55:32.5200545+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T16:55:32.6732848+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:59:56.4724801+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T16:59:56.520998+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T16:59:56.5374474+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T16:59:56.5384954+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T16:59:56.7358294+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:59:56.7358294+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T16:59:57.4793763+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T16:59:57.5066941+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T16:59:57.5100086+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T16:59:57.5217751+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T16:59:57.7043007+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T16:59:57.704497+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:00:02.2336057+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:00:02.2653604+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:00:02.2841644+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:02.2870162+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:02.4313897+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:00:02.4326519+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:00:41.4186583+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:00:41.464135+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:00:41.4775502+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:41.4787349+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:41.6311278+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:00:41.6330107+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:00:45.2701287+02:00", "method":"GET","uri":"/swagger/", "status":301,"error":""}
+{"time":"2024-12-01T17:00:45.2785195+02:00", "method":"GET","uri":"/swagger//index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:00:45.3378605+02:00", "method":"GET","uri":"/swagger//swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:00:45.3637208+02:00", "method":"GET","uri":"/swagger//swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:45.3653027+02:00", "method":"GET","uri":"/swagger//swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:45.5921124+02:00", "method":"GET","uri":"/swagger//doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:00:45.5951983+02:00", "method":"GET","uri":"/swagger//favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:00:49.519784+02:00", "method":"GET","uri":"/swagger//", "status":301,"error":""}
+{"time":"2024-12-01T17:00:49.5287729+02:00", "method":"GET","uri":"/swagger///index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:00:49.6037305+02:00", "method":"GET","uri":"/swagger///swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:00:49.6096831+02:00", "method":"GET","uri":"/swagger///swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:49.6125731+02:00", "method":"GET","uri":"/swagger///swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:00:49.8905148+02:00", "method":"GET","uri":"/swagger///doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:00:49.8945298+02:00", "method":"GET","uri":"/swagger///favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:00:52.2073143+02:00", "method":"GET","uri":"/swagger///doc.yaml", "status":500,"error":""}
+{"time":"2024-12-01T17:00:53.4522335+02:00", "method":"GET","uri":"/swagger///doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:01:03.4052107+02:00", "method":"GET","uri":"/swagger/index.html?urls.primaryName=doc.json", "status":404,"error":""}
+{"time":"2024-12-01T17:01:08.176739+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:01:08.2268767+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:01:08.240735+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:01:08.2414481+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:01:08.3896188+02:00", "method":"GET","uri":"/swagger/doc.json", "status":500,"error":""}
+{"time":"2024-12-01T17:44:09.3691472+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:44:09.4216825+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:44:09.4271795+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:44:09.4277945+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:44:09.6856601+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T17:44:09.6922464+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.4205353+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.4878715+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.4921709+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.4935844+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.8170121+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T17:45:30.844465+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T18:12:22.0474749+02:00", "method":"POST","uri":"/api/v1/songs", "status":400,"error":"Key: 'songCreateInput.Title' Error:Field validation for 'Title' failed on the 'required' tag"}
+{"time":"2024-12-01T18:17:36.9041476+02:00", "method":"POST","uri":"/api/v1/songs", "status":400,"error":"Key: 'songCreateInput.Title' Error:Field validation for 'Title' failed on the 'required' tag"}
+{"time":"2024-12-01T18:17:46.9755455+02:00", "method":"POST","uri":"/api/v1/songs", "status":200,"error":""}
+{"time":"2024-12-01T18:17:50.8366313+02:00", "method":"POST","uri":"/api/v1/songs", "status":400,"error":"song already exists"}
+{"time":"2024-12-01T18:19:02.1924095+02:00", "method":"POST","uri":"/api/v1/songs", "status":500,"error":"something broke"}
+{"time":"2024-12-01T18:26:05.460229+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T18:26:05.514107+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T18:26:05.517057+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T18:26:05.5206933+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T18:26:05.716994+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T18:26:05.7175031+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.5994482+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.6248095+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.6253373+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.6328147+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.8432544+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T18:29:19.8452079+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.1798802+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.2211123+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.2352278+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.2368104+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.4020294+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T18:29:25.4021779+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.6761694+02:00", "method":"GET","uri":"/swagger/index.html", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.7003721+02:00", "method":"GET","uri":"/swagger/swagger-ui.css", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.7073287+02:00", "method":"GET","uri":"/swagger/swagger-ui-bundle.js", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.7175808+02:00", "method":"GET","uri":"/swagger/swagger-ui-standalone-preset.js", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.8728885+02:00", "method":"GET","uri":"/swagger/favicon-32x32.png", "status":200,"error":""}
+{"time":"2024-12-01T18:34:35.8748011+02:00", "method":"GET","uri":"/swagger/doc.json", "status":200,"error":""}
+{"time":"2024-12-01T18:35:11.50807+02:00", "method":"GET","uri":"/api/v1/songs/dc257a8e-746d-462e-8177-884fc66d4469", "status":200,"error":""}
+{"time":"2024-12-01T18:35:19.6429145+02:00", "method":"GET","uri":"/api/v1/songs/ca018988-64ca-4f9a-ae79-1f95ecec1359", "status":200,"error":""}

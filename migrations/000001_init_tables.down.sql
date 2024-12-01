@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS lyrics_verses;
+DROP TABLE IF EXISTS songs;
+DROP TABLE IF EXISTS "groups";
+DROP EXTENSION IF EXISTS "pgcrypto";
